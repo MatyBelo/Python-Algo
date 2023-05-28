@@ -15,3 +15,7 @@ def fibonacciNoRecursivo(n: int) -> int:
         i += 1
     
     return proximo
+
+if __name__ == '__main__':
+  x = int(input())
+  print(fibonacciNoRecursivo(x))
